@@ -20,3 +20,5 @@ RUN \
   ./make.bash && \
   rm /go$GO_VERSION.src.tar.gz
 
+ENV PATH $PATH:/go/bin
+ENV GOPATH /go/
